@@ -3,13 +3,15 @@ Tic-Tac-Toe game made using MIPS Bitmap and MMIO Simulator
 
 # Objective
 This program uses the MIPS Bitmap display and the MIPS Keyboard and Display MMIO Simulator to simulate a tic-tac-toe game. The game can be played using the numeric pad on a keyboard: 
+```output
 						 7 | 8 | 9
 						-------------
 						 4 | 5 | 6
 						-------------
 						 1 | 2 | 3
 
-(Note: If you do not have a keypad on your keyboard, you can still play this game the same way using the numeric keys above the character keys)
+(Note: If you do not have a keypad on your keyboard, you can still play this game the same way using the numeric keys 
+above the character keys)
 
 Instructions to run the program:
 1.	Launch the Mars .jar file on your computer (to run MIPS code)
@@ -23,7 +25,11 @@ b.	Keyboard and Display MMIO Simulator
 7.	Play the game until either X wins, O wins, or it’s a tie game
 8.	Goodluck!
 
-What this program does, is uses the MIPS Bitmap and MMIO Keyboard simulator to receive input from the user into the keyboard and translates what is inputted to a tic-tac-toe (TTT) game. Based on what X’s first move is on the TTT grid, the program jumps to one of the defined functions for that specific spot on the grid and places an X there. For the next move which would be O’s move, O decides where to put their symbol, and the program jumps to the corresponding function to place an O in the designated spot. (Note: The space key exits the program)
+What this program does, is uses the MIPS Bitmap and MMIO Keyboard simulator to receive input from the user into the 
+keyboard and translates what is inputted to a tic-tac-toe (TTT) game. Based on what X’s first move is on the TTT 
+grid, the program jumps to one of the defined functions for that specific spot on the grid and places an X there. 
+For the next move which would be O’s move, O decides where to put their symbol, and the program jumps to the 
+corresponding function to place an O in the designated spot. (Note: The space key exits the program)
 
 Once the grid is full, there are functions defined to check if X or O won in a few ways which are:
 1.	Across the top row
