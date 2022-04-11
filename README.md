@@ -4,12 +4,13 @@ Tic-Tac-Toe game made using MIPS Bitmap and MMIO Simulator
 # Objective
 This program uses the MIPS Bitmap display and the MIPS Keyboard and Display MMIO Simulator to simulate a tic-tac-toe game. The game can be played using the numeric pad on a keyboard: 
 ```output
-						 7 | 8 | 9
-						-------------
-						 4 | 5 | 6
-						-------------
-						 1 | 2 | 3
-
+						    7 | 8 | 9
+						   -----------
+						    4 | 5 | 6
+						   -----------
+						    1 | 2 | 3
+```
+						 
 (Note: If you do not have a keypad on your keyboard, you can still play this game the same way using the numeric keys 
 above the character keys)
 
@@ -40,3 +41,6 @@ Once the grid is full, there are functions defined to check if X or O won in a f
 6.	Down the leftmost column
 7.	Down the center column
 8.	Down the rightmost column
+
+# Sample Run(s)
+![Screen Shot 2022-04-10 at 9 54 05 PM](https://user-images.githubusercontent.com/87043795/162808985-f0b7d188-a7d9-40e7-abbe-75ada93af3bf.png)
